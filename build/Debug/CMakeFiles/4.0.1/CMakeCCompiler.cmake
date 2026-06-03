@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/starm-clang.exe")
+set(CMAKE_C_COMPILER "C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/starm-clang.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "Clang")
 set(CMAKE_C_COMPILER_VERSION "21.1.1")
@@ -22,14 +22,14 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "D:/LLVM/bin/llvm-ar.exe")
+set(CMAKE_AR "C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/starm-ar.exe")
 set(CMAKE_C_COMPILER_AR "CMAKE_C_COMPILER_AR-NOTFOUND")
-set(CMAKE_RANLIB "D:/LLVM/bin/llvm-ranlib.exe")
+set(CMAKE_RANLIB "C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/starm-ranlib.exe")
 set(CMAKE_C_COMPILER_RANLIB "CMAKE_C_COMPILER_RANLIB-NOTFOUND")
-set(CMAKE_LINKER "C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/starm-clang.exe")
+set(CMAKE_LINKER "C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/starm-clang.exe")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
-set(CMAKE_C_COMPILER_LINKER "[1/2] C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/starm-clang.exe")
+set(CMAKE_C_COMPILER_LINKER "[1/2] C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/starm-clang.exe")
 set(CMAKE_C_COMPILER_LINKER_ID "")
 set(CMAKE_C_COMPILER_LINKER_VERSION )
 set(CMAKE_C_COMPILER_LINKER_FRONTEND_VARIANT )
@@ -77,7 +77,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/lib/clang/21/include;C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/lib/clang-runtimes/arm-none-eabi/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/lib/clang/21/include;C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/lib/clang-runtimes/arm-none-eabi/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "ob")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

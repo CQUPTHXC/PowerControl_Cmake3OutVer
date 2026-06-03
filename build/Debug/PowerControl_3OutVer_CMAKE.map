@@ -2,7 +2,7 @@ STMicroelectronics Memory Configuration
 
 Name     Origin   Length   Bytes-Used %age-Used Attributes
 RAM 0x20000000 0x005000 0x0009f0       12%  rwx     
-FLASH 0x8000000 0x010000 0x005974       34%  rx      
+FLASH 0x8000000 0x010000 0x005968       34%  rx      
 
      VMA      LMA     Size Align Out     In      Symbol
        0        0        0     1 _estack = ORIGIN(RAM) + LENGTH(RAM)
@@ -13,25 +13,25 @@ FLASH 0x8000000 0x010000 0x005974       34%  rx
  8000000  8000000      10c     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/startup_stm32f103xb.s.obj:(.isr_vector)
  8000000  8000000        0     1                 g_pfnVectors
  800010c  800010c        0     1         . = ALIGN(4)
- 800010c  800010c     57b8     4 .text
+ 800010c  800010c     57ac     4 .text
  800010c  800010c        0     1         . = ALIGN(4)
- 800010c  800010c      118     4         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(mulsf3.S.obj):(.text)
+ 800010c  800010c      118     4         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(mulsf3.S.obj):(.text)
  800010c  800010c        0     1                 $t
  800010d  800010d      118     1                 __mulsf3
  800010d  800010d      118     1                 __aeabi_fmul
- 8000224  8000224      1c4     4         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(divsf3.S.obj):(.text)
+ 8000224  8000224      1c4     4         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(divsf3.S.obj):(.text)
  8000224  8000224        0     1                 $t
  8000225  8000225      1c0     1                 __divsf3
  8000225  8000225      1c0     1                 __aeabi_fdiv
  80003a4  80003a4        0     1                 $d
- 80003e8  80003e8       62     4         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(aeabi_fcmp.S.obj):(.text)
+ 80003e8  80003e8       62     4         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(aeabi_fcmp.S.obj):(.text)
  80003e8  80003e8        0     1                 $t
  80003e9  80003e9       12     1                 __aeabi_fcmpeq
  80003fd  80003fd       12     1                 __aeabi_fcmplt
  8000411  8000411       12     1                 __aeabi_fcmple
  8000425  8000425       12     1                 __aeabi_fcmpge
  8000439  8000439       12     1                 __aeabi_fcmpgt
- 800044c  800044c       84     4         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(comparesf2.S.obj):(.text)
+ 800044c  800044c       84     4         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(comparesf2.S.obj):(.text)
  800044c  800044c        0     1                 $t
  800044d  800044d       36     1                 __eqsf2
  800044d  800044d       36     1                 __lesf2
@@ -391,223 +391,223 @@ FLASH 0x8000000 0x010000 0x005974       34%  rx
  8003b88  8003b88       4e     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/LED/LED.c.obj:(.text.LED_Init)
  8003b88  8003b88        0     1                 $t
  8003b89  8003b89       4e     1                 LED_Init
- 8003bd8  8003bd8      2de     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/LED/LED.c.obj:(.text.LED_Switch)
+ 8003bd8  8003bd8      2d4     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/LED/LED.c.obj:(.text.LED_Switch)
  8003bd8  8003bd8        0     1                 $t
- 8003bd9  8003bd9      2de     1                 LED_Switch
+ 8003bd9  8003bd9      2d4     1                 LED_Switch
  8003bea  8003bea        0     1                 $d
  8003bf0  8003bf0        0     1                 $t
  8003bfc  8003bfc        0     1                 $d
  8003c08  8003c08        0     1                 $t
- 8003c44  8003c44        0     1                 $d
- 8003c4c  8003c4c        0     1                 $t
- 8003c70  8003c70        0     1                 $d
- 8003c76  8003c76        0     1                 $t
- 8003cee  8003cee        0     1                 $d
- 8003cf4  8003cf4        0     1                 $t
- 8003d30  8003d30        0     1                 $d
- 8003d34  8003d34        0     1                 $t
- 8003eb8  8003eb8       7a     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.text.Init_Power_Read)
- 8003eb8  8003eb8        0     1                 $t
- 8003eb9  8003eb9       7a     1                 Init_Power_Read
- 8003f34  8003f34       e4     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.text.INA3221_Init)
- 8003f34  8003f34        0     1                 $t
- 8003f35  8003f35       e4     1                 INA3221_Init
- 8004018  8004018      16e     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.text.Power_Read_Loop)
- 8004018  8004018        0     1                 $t
- 8004019  8004019      16e     1                 Power_Read_Loop
- 8004040  8004040        0     1                 $d
- 8004044  8004044        0     1                 $t
- 8004188  8004188      23a     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.text.Power_Voltage_Control_Loop)
- 8004188  8004188        0     1                 $t
- 8004189  8004189      23a     1                 Power_Voltage_Control_Loop
- 80042dc  80042dc        0     1                 $d
- 80042e2  80042e2        0     1                 $t
- 80043c4  80043c4       fc     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.text.Power_Current_Control_Loop)
- 80043c4  80043c4        0     1                 $t
- 80043c5  80043c5       fc     1                 Power_Current_Control_Loop
- 80044c0  80044c0      1e8     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.text.Median_Filter)
- 80044c0  80044c0        0     1                 $t
- 80044c1  80044c1      1e8     1                 Median_Filter
- 80046a8  80046a8       26     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Power/Power.c.obj:(.text.Init_Power_Control)
- 80046a8  80046a8        0     1                 $t
- 80046a9  80046a9       26     1                 Init_Power_Control
- 80046d0  80046d0       38     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Power/Power.c.obj:(.text.Power_Init)
- 80046d0  80046d0        0     1                 $t
- 80046d1  80046d1       38     1                 Power_Init
- 8004708  8004708      140     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Power/Power.c.obj:(.text.Power_Switch)
- 8004708  8004708        0     1                 $t
- 8004709  8004709      140     1                 Power_Switch
- 8004848  8004848        6     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Power/Power.c.obj:(.text.Power_Read_Channel_State)
- 8004848  8004848        0     1                 $t
- 8004849  8004849        6     1                 Power_Read_Channel_State
- 8004850  8004850        c     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Message/Message.c.obj:(.text.Send_Period_Init)
+ 8003c48  8003c48        0     1                 $d
+ 8003c50  8003c50        0     1                 $t
+ 8003c74  8003c74        0     1                 $d
+ 8003c7a  8003c7a        0     1                 $t
+ 8003cfc  8003cfc        0     1                 $d
+ 8003d02  8003d02        0     1                 $t
+ 8003d42  8003d42        0     1                 $d
+ 8003d46  8003d46        0     1                 $t
+ 8003eac  8003eac       7a     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.text.Init_Power_Read)
+ 8003eac  8003eac        0     1                 $t
+ 8003ead  8003ead       7a     1                 Init_Power_Read
+ 8003f28  8003f28       e4     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.text.INA3221_Init)
+ 8003f28  8003f28        0     1                 $t
+ 8003f29  8003f29       e4     1                 INA3221_Init
+ 800400c  800400c      16e     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.text.Power_Read_Loop)
+ 800400c  800400c        0     1                 $t
+ 800400d  800400d      16e     1                 Power_Read_Loop
+ 8004034  8004034        0     1                 $d
+ 8004038  8004038        0     1                 $t
+ 800417c  800417c      23a     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.text.Power_Voltage_Control_Loop)
+ 800417c  800417c        0     1                 $t
+ 800417d  800417d      23a     1                 Power_Voltage_Control_Loop
+ 80042d0  80042d0        0     1                 $d
+ 80042d6  80042d6        0     1                 $t
+ 80043b8  80043b8       fc     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.text.Power_Current_Control_Loop)
+ 80043b8  80043b8        0     1                 $t
+ 80043b9  80043b9       fc     1                 Power_Current_Control_Loop
+ 80044b4  80044b4      1e8     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.text.Median_Filter)
+ 80044b4  80044b4        0     1                 $t
+ 80044b5  80044b5      1e8     1                 Median_Filter
+ 800469c  800469c       26     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Power/Power.c.obj:(.text.Init_Power_Control)
+ 800469c  800469c        0     1                 $t
+ 800469d  800469d       26     1                 Init_Power_Control
+ 80046c4  80046c4       38     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Power/Power.c.obj:(.text.Power_Init)
+ 80046c4  80046c4        0     1                 $t
+ 80046c5  80046c5       38     1                 Power_Init
+ 80046fc  80046fc      140     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Power/Power.c.obj:(.text.Power_Switch)
+ 80046fc  80046fc        0     1                 $t
+ 80046fd  80046fd      140     1                 Power_Switch
+ 800483c  800483c        6     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Power/Power.c.obj:(.text.Power_Read_Channel_State)
+ 800483c  800483c        0     1                 $t
+ 800483d  800483d        6     1                 Power_Read_Channel_State
+ 8004844  8004844        c     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Message/Message.c.obj:(.text.Send_Period_Init)
+ 8004844  8004844        0     1                 $t
+ 8004845  8004845        c     1                 Send_Period_Init
+ 8004850  8004850       32     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Message/Message.c.obj:(.text.Send_CAN_Message)
  8004850  8004850        0     1                 $t
- 8004851  8004851        c     1                 Send_Period_Init
- 800485c  800485c       32     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Message/Message.c.obj:(.text.Send_CAN_Message)
- 800485c  800485c        0     1                 $t
- 800485d  800485d       32     1                 Send_CAN_Message
- 8004890  8004890       56     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Message/Message.c.obj:(.text.CAN_Connect_Init)
- 8004890  8004890        0     1                 $t
- 8004891  8004891       56     1                 CAN_Connect_Init
- 80048e8  80048e8       1c     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/BUZZER/Buzzer.c.obj:(.text.Buzzer_Init)
- 80048e8  80048e8        0     1                 $t
- 80048e9  80048e9       1c     1                 Buzzer_Init
- 8004904  8004904       d4     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/BUZZER/Buzzer.c.obj:(.text.Buzzer_Switch)
- 8004904  8004904        0     1                 $t
- 8004905  8004905       d4     1                 Buzzer_Switch
- 80049d8  80049d8       16     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.text.Log_Init)
- 80049d8  80049d8        0     1                 $t
- 80049d9  80049d9       16     1                 Log_Init
- 80049f0  80049f0       8e     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.text.Log_Check)
- 80049f0  80049f0        0     1                 $t
- 80049f1  80049f1       8e     1                 Log_Check
- 8004a4a  8004a4a        0     1                 $d
- 8004a50  8004a50        0     1                 $t
- 8004a80  8004a80      136     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.text.Log_printf)
- 8004a80  8004a80        0     1                 $t
- 8004a81  8004a81      136     1                 Log_printf
- 8004bb8  8004bb8       14     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.text.__io_putchar)
- 8004bb8  8004bb8        0     1                 $t
- 8004bb9  8004bb9       14     1                 __io_putchar
- 8004bcc  8004bcc       3e     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.text.HAL_UARTEx_RxEventCallback)
- 8004bcc  8004bcc        0     1                 $t
- 8004bcd  8004bcd       3e     1                 HAL_UARTEx_RxEventCallback
- 8004c0c  8004c0c      392     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Core/Src/CallBack.c.obj:(.text.HAL_TIM_PeriodElapsedCallback)
- 8004c0c  8004c0c        0     1                 $t
- 8004c0d  8004c0d      392     1                 HAL_TIM_PeriodElapsedCallback
- 8004f9e  8004f9e      1d8     2         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(addsf3.c.obj):(.text.__addsf3)
- 8004f9e  8004f9e        0     1                 $t
- 8004f9f  8004f9f      1d8     1                 __addsf3
- 8004f9f  8004f9f      1d8     1                 __aeabi_fadd
- 8005178  8005178        c     4         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(fp_mode.c.obj):(.text.__fe_getround)
+ 8004851  8004851       32     1                 Send_CAN_Message
+ 8004884  8004884       56     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Message/Message.c.obj:(.text.CAN_Connect_Init)
+ 8004884  8004884        0     1                 $t
+ 8004885  8004885       56     1                 CAN_Connect_Init
+ 80048dc  80048dc       1c     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/BUZZER/Buzzer.c.obj:(.text.Buzzer_Init)
+ 80048dc  80048dc        0     1                 $t
+ 80048dd  80048dd       1c     1                 Buzzer_Init
+ 80048f8  80048f8       d4     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/BUZZER/Buzzer.c.obj:(.text.Buzzer_Switch)
+ 80048f8  80048f8        0     1                 $t
+ 80048f9  80048f9       d4     1                 Buzzer_Switch
+ 80049cc  80049cc       16     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.text.Log_Init)
+ 80049cc  80049cc        0     1                 $t
+ 80049cd  80049cd       16     1                 Log_Init
+ 80049e4  80049e4       8e     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.text.Log_Check)
+ 80049e4  80049e4        0     1                 $t
+ 80049e5  80049e5       8e     1                 Log_Check
+ 8004a3e  8004a3e        0     1                 $d
+ 8004a44  8004a44        0     1                 $t
+ 8004a74  8004a74      136     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.text.Log_printf)
+ 8004a74  8004a74        0     1                 $t
+ 8004a75  8004a75      136     1                 Log_printf
+ 8004bac  8004bac       14     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.text.__io_putchar)
+ 8004bac  8004bac        0     1                 $t
+ 8004bad  8004bad       14     1                 __io_putchar
+ 8004bc0  8004bc0       3e     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.text.HAL_UARTEx_RxEventCallback)
+ 8004bc0  8004bc0        0     1                 $t
+ 8004bc1  8004bc1       3e     1                 HAL_UARTEx_RxEventCallback
+ 8004c00  8004c00      392     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Core/Src/CallBack.c.obj:(.text.HAL_TIM_PeriodElapsedCallback)
+ 8004c00  8004c00        0     1                 $t
+ 8004c01  8004c01      392     1                 HAL_TIM_PeriodElapsedCallback
+ 8004f92  8004f92      1d8     2         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(addsf3.c.obj):(.text.__addsf3)
+ 8004f92  8004f92        0     1                 $t
+ 8004f93  8004f93      1d8     1                 __addsf3
+ 8004f93  8004f93      1d8     1                 __aeabi_fadd
+ 800516c  800516c        c     4         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(fp_mode.c.obj):(.text.__fe_getround)
+ 800516c  800516c        0     1                 $t
+ 800516d  800516d        c     1                 __fe_getround
+ 8005174  8005174        0     1                 $d
+ 8005178  8005178        4     2         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(fp_mode.c.obj):(.text.__fe_raise_inexact)
  8005178  8005178        0     1                 $t
- 8005179  8005179        c     1                 __fe_getround
- 8005180  8005180        0     1                 $d
- 8005184  8005184        4     2         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(fp_mode.c.obj):(.text.__fe_raise_inexact)
- 8005184  8005184        0     1                 $t
- 8005185  8005185        4     1                 __fe_raise_inexact
- 8005188  8005188       3c     2         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(fixsfsi.c.obj):(.text.__fixsfsi)
- 8005188  8005188        0     1                 $t
- 8005189  8005189       3c     1                 __fixsfsi
- 8005189  8005189       3c     1                 __aeabi_f2iz
- 80051c4  80051c4       5e     2         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(floatsisf.c.obj):(.text.__floatsisf)
- 80051c4  80051c4        0     1                 $t
- 80051c5  80051c5       5e     1                 __floatsisf
- 80051c5  80051c5       5e     1                 __aeabi_i2f
- 8005222  8005222        8     2         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(subsf3.c.obj):(.text.__subsf3)
- 8005222  8005222        0     1                 $t
- 8005223  8005223        8     1                 __subsf3
- 8005223  8005223        8     1                 __aeabi_fsub
- 800522a  800522a       38     2         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(fnan2.c.obj):(.text.__compiler_rt_fnan2)
- 800522a  800522a        0     1                 $t
- 800522b  800522b       38     1                 __compiler_rt_fnan2
- 8005262  8005262       3c     2         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(fnorm2.c.obj):(.text.__compiler_rt_fnorm2)
- 8005262  8005262        0     1                 $t
- 8005263  8005263       3c     1                 __compiler_rt_fnorm2
- 800529e  800529e       5c     2         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(funder.c.obj):(.text.__compiler_rt_funder)
- 800529e  800529e        0     1                 $t
- 800529f  800529f       5c     1                 __compiler_rt_funder
- 80052fa  80052fa        8     2         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(bzero.c.o):(.text.bzero)
- 80052fa  80052fa        0     1                 $t
- 80052fb  80052fb        8     1                 bzero
- 80052fb  80052fb        8     1                 __aeabi_memclr4
- 80052fb  80052fb        8     1                 __aeabi_memclr8
- 80052fb  80052fb        8     1                 __aeabi_memclr
- 8005302  8005302        e     2         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(memset.c.o):(.text.memset)
- 8005302  8005302        0     1                 $t
- 8005303  8005303        e     1                 memset
- 8005310  8005310       1c     4         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_misc_init.c.o):(.text.__libc_init_array)
- 8005310  8005310        0     1                 $t
- 8005311  8005311       1c     1                 __libc_init_array
- 8005324  8005324        0     1                 $d
- 800532c  800532c       10     4         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_picolib_machine_arm_read_tp.S.o):(.text._initial_set_tls)
- 800532c  800532c        0     1                 $t
- 800532d  800532d        6     1                 _initial_set_tls
- 8005334  8005334        0     1                 $d
- 800533c  800533c       14     4         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_picolib_machine_arm_set_tls.c.o):(.text._set_tls)
- 800533c  800533c        0     1                 $t
- 800533d  800533d       14     1                 _set_tls
- 8005348  8005348        0     1                 $d
- 8005350  8005350       24     4         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_tinystdio_printf.c.o):(.text.printf)
- 8005350  8005350        0     1                 $t
- 8005351  8005351       24     1                 printf
- 8005370  8005370        0     1                 $d
- 8005374  8005374       44     4         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_tinystdio_puts.c.o):(.text.puts)
- 8005374  8005374        0     1                 $t
- 8005375  8005375       44     1                 puts
- 80053b4  80053b4        0     1                 $d
- 80053b8  80053b8       18     2         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_string_strnlen.c.o):(.text.strnlen)
- 80053b8  80053b8        0     1                 $t
- 80053b9  80053b9       18     1                 strnlen
- 80053d0  80053d0      4c4     4         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_tinystdio_vfiprintf.c.o):(.text.__i_vfprintf)
- 80053d0  80053d0        0     1                 $t
- 80053d1  80053d1      4c4     1                 __i_vfprintf
- 8005446  8005446        0     1                 $d
- 8005450  8005450        0     1                 $t
- 80055a8  80055a8        0     1                 $d
- 80055b0  80055b0        0     1                 $t
- 800588c  800588c        0     1                 $d
- 8005894  8005894       28     2         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_tinystdio_vfiprintf.c.o):(.text.__ultoa_invert)
- 8005894  8005894        0     1                 $t
- 8005895  8005895       28     1                 __ultoa_invert
- 80058bc  80058bc        8     2         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_tinystdio_vfiprintf.c.o):(.text.OUTLINED_FUNCTION_0)
- 80058bc  80058bc        0     1                 $t
- 80058bd  80058bd        8     1                 OUTLINED_FUNCTION_0
- 80058c4  80058c4        0     1         . = ALIGN(4)
- 80058c4  80058c4        0     1         _etext = .
- 80058c4  80058c4       80     4 .rodata
- 80058c4  80058c4        0     1         . = ALIGN(4)
- 80058c4  80058c4       10     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj:(.rodata.AHBPrescTable)
- 80058c4  80058c4       10     1                 AHBPrescTable
- 80058d4  80058d4        8     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj:(.rodata.APBPrescTable)
- 80058d4  80058d4        8     1                 APBPrescTable
- 80058dc  80058dc       10     1         <internal>:(.rodata.cst16)
- 80058ec  80058ec        2     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj:(.rodata.HAL_RCC_GetSysClockFreq.aPredivFactorTable)
- 80058ec  80058ec        2     1                 HAL_RCC_GetSysClockFreq.aPredivFactorTable
- 80058f0  80058f0        4     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Core/Src/syscalls.c.obj:(.rodata.stdin)
- 80058f0  80058f0        4     1                 stdin
- 80058f0  80058f0        4     1                 stdout
- 80058f0  80058f0        4     1                 stderr
- 80058f4  80058f4        6     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.rodata..L__const.Search_Channel_To_Read.Channel_Map)
- 80058f4  80058f4        6     1                 .L__const.Search_Channel_To_Read.Channel_Map
- 80058fa  80058fa       4a     1         <internal>:(.rodata.str1.1)
- 8005944  8005944        0     1         . = ALIGN(4)
- 8005944  8005944        0     1 .ARM.extab
- 8005944  8005944        0     1         . = ALIGN(4)
- 8005944  8005944        0     1         . = ALIGN(4)
- 8005944  8005944       10     4 .ARM
- 8005944  8005944        0     1         . = ALIGN(4)
- 8005944  8005944        0     1         __exidx_start = .
- 8005944  8005944       10     4         <internal>:(.ARM.exidx)
- 8005954  8005954        0     1         __exidx_end = .
- 8005954  8005954        0     1         . = ALIGN(4)
- 8005954  8005954        4     4 .preinit_array
- 8005954  8005954        0     1         . = ALIGN(4)
- 8005954  8005954        4     4         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_picolib_machine_arm_read_tp.S.o):(.preinit_array)
- 8005958  8005958        0     1         . = ALIGN(4)
- 8005958  8005958        0     1 .init_array
- 8005958  8005958        0     1         . = ALIGN(4)
- 8005958  8005958        0     1         . = ALIGN(4)
- 8005958  8005958        0     1 .fini_array
- 8005958  8005958        0     1         . = ALIGN(4)
- 8005958  8005958        0     1         . = ALIGN(4)
- 8005958  8005958        0     1 _sidata = LOADADDR(.data)
-20000000  8005958       1c     4 .data
-20000000  8005958        0     1         . = ALIGN(4)
-20000000  8005958        0     1         _sdata = .
-20000000  8005958        4     4         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj:(.data.SystemCoreClock)
-20000000  8005958        4     1                 SystemCoreClock
-20000004  800595c        4     4         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj:(.data.uwTickPrio)
-20000004  800595c        4     1                 uwTickPrio
-20000008  8005960        1     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj:(.data.uwTickFreq)
-20000008  8005960        1     1                 uwTickFreq
-2000000c  8005964       10     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Core/Src/syscalls.c.obj:(.data.__stdio)
-2000000c  8005964       10     1                 __stdio
-2000001c  8005974        0     1         . = ALIGN(4)
-2000001c  8005974        0     4 .tdata
-2000001c  8005974        0     1         . = ALIGN(4)
-2000001c  8005974        0     1         _edata = .
-2000001c  8005974        0     1 PROVIDE( __tdata_start = ADDR(.tdata) )
+ 8005179  8005179        4     1                 __fe_raise_inexact
+ 800517c  800517c       3c     2         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(fixsfsi.c.obj):(.text.__fixsfsi)
+ 800517c  800517c        0     1                 $t
+ 800517d  800517d       3c     1                 __fixsfsi
+ 800517d  800517d       3c     1                 __aeabi_f2iz
+ 80051b8  80051b8       5e     2         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(floatsisf.c.obj):(.text.__floatsisf)
+ 80051b8  80051b8        0     1                 $t
+ 80051b9  80051b9       5e     1                 __floatsisf
+ 80051b9  80051b9       5e     1                 __aeabi_i2f
+ 8005216  8005216        8     2         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(subsf3.c.obj):(.text.__subsf3)
+ 8005216  8005216        0     1                 $t
+ 8005217  8005217        8     1                 __subsf3
+ 8005217  8005217        8     1                 __aeabi_fsub
+ 800521e  800521e       38     2         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(fnan2.c.obj):(.text.__compiler_rt_fnan2)
+ 800521e  800521e        0     1                 $t
+ 800521f  800521f       38     1                 __compiler_rt_fnan2
+ 8005256  8005256       3c     2         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(fnorm2.c.obj):(.text.__compiler_rt_fnorm2)
+ 8005256  8005256        0     1                 $t
+ 8005257  8005257       3c     1                 __compiler_rt_fnorm2
+ 8005292  8005292       5c     2         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(funder.c.obj):(.text.__compiler_rt_funder)
+ 8005292  8005292        0     1                 $t
+ 8005293  8005293       5c     1                 __compiler_rt_funder
+ 80052ee  80052ee        8     2         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(bzero.c.o):(.text.bzero)
+ 80052ee  80052ee        0     1                 $t
+ 80052ef  80052ef        8     1                 bzero
+ 80052ef  80052ef        8     1                 __aeabi_memclr4
+ 80052ef  80052ef        8     1                 __aeabi_memclr8
+ 80052ef  80052ef        8     1                 __aeabi_memclr
+ 80052f6  80052f6        e     2         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(memset.c.o):(.text.memset)
+ 80052f6  80052f6        0     1                 $t
+ 80052f7  80052f7        e     1                 memset
+ 8005304  8005304       1c     4         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_misc_init.c.o):(.text.__libc_init_array)
+ 8005304  8005304        0     1                 $t
+ 8005305  8005305       1c     1                 __libc_init_array
+ 8005318  8005318        0     1                 $d
+ 8005320  8005320       10     4         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_picolib_machine_arm_read_tp.S.o):(.text._initial_set_tls)
+ 8005320  8005320        0     1                 $t
+ 8005321  8005321        6     1                 _initial_set_tls
+ 8005328  8005328        0     1                 $d
+ 8005330  8005330       14     4         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_picolib_machine_arm_set_tls.c.o):(.text._set_tls)
+ 8005330  8005330        0     1                 $t
+ 8005331  8005331       14     1                 _set_tls
+ 800533c  800533c        0     1                 $d
+ 8005344  8005344       24     4         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_tinystdio_printf.c.o):(.text.printf)
+ 8005344  8005344        0     1                 $t
+ 8005345  8005345       24     1                 printf
+ 8005364  8005364        0     1                 $d
+ 8005368  8005368       44     4         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_tinystdio_puts.c.o):(.text.puts)
+ 8005368  8005368        0     1                 $t
+ 8005369  8005369       44     1                 puts
+ 80053a8  80053a8        0     1                 $d
+ 80053ac  80053ac       18     2         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_string_strnlen.c.o):(.text.strnlen)
+ 80053ac  80053ac        0     1                 $t
+ 80053ad  80053ad       18     1                 strnlen
+ 80053c4  80053c4      4c4     4         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_tinystdio_vfiprintf.c.o):(.text.__i_vfprintf)
+ 80053c4  80053c4        0     1                 $t
+ 80053c5  80053c5      4c4     1                 __i_vfprintf
+ 800543a  800543a        0     1                 $d
+ 8005444  8005444        0     1                 $t
+ 800559c  800559c        0     1                 $d
+ 80055a4  80055a4        0     1                 $t
+ 8005880  8005880        0     1                 $d
+ 8005888  8005888       28     2         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_tinystdio_vfiprintf.c.o):(.text.__ultoa_invert)
+ 8005888  8005888        0     1                 $t
+ 8005889  8005889       28     1                 __ultoa_invert
+ 80058b0  80058b0        8     2         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_tinystdio_vfiprintf.c.o):(.text.OUTLINED_FUNCTION_0)
+ 80058b0  80058b0        0     1                 $t
+ 80058b1  80058b1        8     1                 OUTLINED_FUNCTION_0
+ 80058b8  80058b8        0     1         . = ALIGN(4)
+ 80058b8  80058b8        0     1         _etext = .
+ 80058b8  80058b8       80     4 .rodata
+ 80058b8  80058b8        0     1         . = ALIGN(4)
+ 80058b8  80058b8       10     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj:(.rodata.AHBPrescTable)
+ 80058b8  80058b8       10     1                 AHBPrescTable
+ 80058c8  80058c8        8     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj:(.rodata.APBPrescTable)
+ 80058c8  80058c8        8     1                 APBPrescTable
+ 80058d0  80058d0       10     1         <internal>:(.rodata.cst16)
+ 80058e0  80058e0        2     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj:(.rodata.HAL_RCC_GetSysClockFreq.aPredivFactorTable)
+ 80058e0  80058e0        2     1                 HAL_RCC_GetSysClockFreq.aPredivFactorTable
+ 80058e4  80058e4        4     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Core/Src/syscalls.c.obj:(.rodata.stdin)
+ 80058e4  80058e4        4     1                 stdin
+ 80058e4  80058e4        4     1                 stdout
+ 80058e4  80058e4        4     1                 stderr
+ 80058e8  80058e8        6     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.rodata..L__const.Search_Channel_To_Read.Channel_Map)
+ 80058e8  80058e8        6     1                 .L__const.Search_Channel_To_Read.Channel_Map
+ 80058ee  80058ee       4a     1         <internal>:(.rodata.str1.1)
+ 8005938  8005938        0     1         . = ALIGN(4)
+ 8005938  8005938        0     1 .ARM.extab
+ 8005938  8005938        0     1         . = ALIGN(4)
+ 8005938  8005938        0     1         . = ALIGN(4)
+ 8005938  8005938       10     4 .ARM
+ 8005938  8005938        0     1         . = ALIGN(4)
+ 8005938  8005938        0     1         __exidx_start = .
+ 8005938  8005938       10     4         <internal>:(.ARM.exidx)
+ 8005948  8005948        0     1         __exidx_end = .
+ 8005948  8005948        0     1         . = ALIGN(4)
+ 8005948  8005948        4     4 .preinit_array
+ 8005948  8005948        0     1         . = ALIGN(4)
+ 8005948  8005948        4     4         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_picolib_machine_arm_read_tp.S.o):(.preinit_array)
+ 800594c  800594c        0     1         . = ALIGN(4)
+ 800594c  800594c        0     1 .init_array
+ 800594c  800594c        0     1         . = ALIGN(4)
+ 800594c  800594c        0     1         . = ALIGN(4)
+ 800594c  800594c        0     1 .fini_array
+ 800594c  800594c        0     1         . = ALIGN(4)
+ 800594c  800594c        0     1         . = ALIGN(4)
+ 800594c  800594c        0     1 _sidata = LOADADDR(.data)
+20000000  800594c       1c     4 .data
+20000000  800594c        0     1         . = ALIGN(4)
+20000000  800594c        0     1         _sdata = .
+20000000  800594c        4     4         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj:(.data.SystemCoreClock)
+20000000  800594c        4     1                 SystemCoreClock
+20000004  8005950        4     4         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj:(.data.uwTickPrio)
+20000004  8005950        4     1                 uwTickPrio
+20000008  8005954        1     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj:(.data.uwTickFreq)
+20000008  8005954        1     1                 uwTickFreq
+2000000c  8005958       10     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Core/Src/syscalls.c.obj:(.data.__stdio)
+2000000c  8005958       10     1                 __stdio
+2000001c  8005968        0     1         . = ALIGN(4)
+2000001c  8005968        0     4 .tdata
+2000001c  8005968        0     1         . = ALIGN(4)
+2000001c  8005968        0     1         _edata = .
+2000001c  8005968        0     1 PROVIDE( __tdata_start = ADDR(.tdata) )
 2000001c 2000001c        0     4 .tbss
 2000001c 2000001c        0     1         _sbss = .
 2000001c 2000001c        0     1         __bss_start__ = _sbss
@@ -692,9 +692,9 @@ FLASH 0x8000000 0x010000 0x005974       34%  rx
 200003e8 200003e8        1     1                 Log_State
 200003e9 200003e9        1     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.bss.Log_Mutex_State)
 200003e9 200003e9        1     1                 Log_Mutex_State
-200003ea 200003ea        1     1         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(fp_mode.c.obj):(.bss.__arm_fe_default_rmode)
+200003ea 200003ea        1     1         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libclang_rt.builtins.a(fp_mode.c.obj):(.bss.__arm_fe_default_rmode)
 200003ea 200003ea        1     1                 __arm_fe_default_rmode
-200003ec 200003ec        4     4         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_picolib_machine_arm_tls.c.o):(.bss.__tls)
+200003ec 200003ec        4     4         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_picolib_machine_arm_tls.c.o):(.bss.__tls)
 200003ec 200003ec        4     1                 __tls
 200003f0 200003f0        0     1         . = ALIGN(4)
 200003f0 200003f0        0     1         _ebss = .
@@ -778,7 +778,7 @@ FLASH 0x8000000 0x010000 0x005974       34%  rx
     3519     3519      128     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/BUZZER/Buzzer.c.obj:(.debug_abbrev)
     3641     3641      1fa     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.debug_abbrev)
     383b     383b      15c     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Core/Src/CallBack.c.obj:(.debug_abbrev)
-       0        0    11899     1 .debug_info
+       0        0    118a1     1 .debug_info
        0        0      154     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj:(.debug_info)
      154      154       cd     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj:(.debug_info)
      221      221      a3e     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj:(.debug_info)
@@ -808,15 +808,15 @@ FLASH 0x8000000 0x010000 0x005974       34%  rx
     e404     e404      14f     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Core/Src/stm32f1xx_hal_msp.c.obj:(.debug_info)
     e553     e553       ae     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Core/Src/sysmem.c.obj:(.debug_info)
     e601     e601      573     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Core/Src/syscalls.c.obj:(.debug_info)
-    eb74     eb74      197     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/startup_stm32f103xb.s.obj:(.debug_info)
-    ed0b     ed0b      63a     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Button/Button.c.obj:(.debug_info)
-    f345     f345      1f4     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/LED/LED.c.obj:(.debug_info)
-    f539     f539      754     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.debug_info)
-    fc8d     fc8d      25f     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Power/Power.c.obj:(.debug_info)
-    feec     feec      57c     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Message/Message.c.obj:(.debug_info)
-   10468    10468      48d     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/BUZZER/Buzzer.c.obj:(.debug_info)
-   108f5    108f5      82d     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.debug_info)
-   11122    11122      777     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Core/Src/CallBack.c.obj:(.debug_info)
+    eb74     eb74      19f     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/startup_stm32f103xb.s.obj:(.debug_info)
+    ed13     ed13      63a     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Button/Button.c.obj:(.debug_info)
+    f34d     f34d      1f4     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/LED/LED.c.obj:(.debug_info)
+    f541     f541      754     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.debug_info)
+    fc95     fc95      25f     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Power/Power.c.obj:(.debug_info)
+    fef4     fef4      57c     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Message/Message.c.obj:(.debug_info)
+   10470    10470      48d     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/BUZZER/Buzzer.c.obj:(.debug_info)
+   108fd    108fd      82d     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.debug_info)
+   1112a    1112a      777     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Core/Src/CallBack.c.obj:(.debug_info)
        0        0     109e     1 .debug_rnglists
        0        0       18     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj:(.debug_rnglists)
       18       18       1a     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj:(.debug_rnglists)
@@ -890,8 +890,8 @@ FLASH 0x8000000 0x010000 0x005974       34%  rx
     3e8c     3e8c      1d4     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/BUZZER/Buzzer.c.obj:(.debug_str_offsets)
     4060     4060      310     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.debug_str_offsets)
     4370     4370      318     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Core/Src/CallBack.c.obj:(.debug_str_offsets)
-       0        0     6c52     1 .debug_str
-       0        0     6c52     1         <internal>:(.debug_str)
+       0        0     6cea     1 .debug_str
+       0        0     6cea     1         <internal>:(.debug_str)
        0        0     12a8     1 .debug_addr
        0        0       1c     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj:(.debug_addr)
       1c       1c       14     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj:(.debug_addr)
@@ -972,8 +972,8 @@ FLASH 0x8000000 0x010000 0x005974       34%  rx
     3048     3048       40     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/BUZZER/Buzzer.c.obj:(.debug_frame)
     3088     3088       98     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.debug_frame)
     3120     3120       3c     4         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Core/Src/CallBack.c.obj:(.debug_frame)
-    315c     315c       34     4         C:/Users/Cindy/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_picolib_machine_arm_read_tp.S.o):(.debug_frame)
-       0        0    113ef     1 .debug_line
+    315c     315c       34     4         C:/Users/jx304/AppData/Local/stm32cube/bundles/st-arm-clang/21.1.1+st.6/bin/../lib/clang-runtimes/arm-none-eabi/armv7m_soft_nofp_exn_rtti_unaligned_size/lib/libc.a(libc_picolib_machine_arm_read_tp.S.o):(.debug_frame)
+       0        0    113e3     1 .debug_line
        0        0      14e     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj:(.debug_line)
      14e      14e       ee     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj:(.debug_line)
      23c      23c      c15     1         cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj:(.debug_line)
@@ -1005,15 +1005,15 @@ FLASH 0x8000000 0x010000 0x005974       34%  rx
     f76b     f76b      357     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Core/Src/syscalls.c.obj:(.debug_line)
     fac2     fac2       6a     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/startup_stm32f103xb.s.obj:(.debug_line)
     fb2c     fb2c      301     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Button/Button.c.obj:(.debug_line)
-    fe2d     fe2d      2a2     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/LED/LED.c.obj:(.debug_line)
-   100cf    100cf      74d     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.debug_line)
-   1081c    1081c      23b     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Power/Power.c.obj:(.debug_line)
-   10a57    10a57      18d     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Message/Message.c.obj:(.debug_line)
-   10be4    10be4      15f     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/BUZZER/Buzzer.c.obj:(.debug_line)
-   10d43    10d43      2f3     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.debug_line)
-   11036    11036      3b9     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Core/Src/CallBack.c.obj:(.debug_line)
-       0        0     197e     1 .debug_line_str
-       0        0     197e     1         <internal>:(.debug_line_str)
+    fe2d     fe2d      296     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/LED/LED.c.obj:(.debug_line)
+   100c3    100c3      74d     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/INA3221/INA3221.c.obj:(.debug_line)
+   10810    10810      23b     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Power/Power.c.obj:(.debug_line)
+   10a4b    10a4b      18d     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Message/Message.c.obj:(.debug_line)
+   10bd8    10bd8      15f     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/BUZZER/Buzzer.c.obj:(.debug_line)
+   10d37    10d37      2f3     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Application/Debug/Log.c.obj:(.debug_line)
+   1102a    1102a      3b9     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/Core/Src/CallBack.c.obj:(.debug_line)
+       0        0     1a1e     1 .debug_line_str
+       0        0     1a1e     1         <internal>:(.debug_line_str)
        0        0       28     1 .debug_aranges
        0        0       28     1         CMakeFiles/PowerControl_3OutVer_CMAKE.dir/startup_stm32f103xb.s.obj:(.debug_aranges)
        0        0     22b0     4 .symtab

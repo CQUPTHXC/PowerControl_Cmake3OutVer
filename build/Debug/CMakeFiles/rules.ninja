@@ -17,7 +17,7 @@
 rule ASM_COMPILER__PowerControl_3OutVer_CMAKE_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}C:\Users\Cindy\AppData\Local\stm32cube\bundles\st-arm-clang\21.1.1+st.6\bin\starm-clang.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\Users\jx304\AppData\Local\stm32cube\bundles\st-arm-clang\21.1.1+st.6\bin\starm-clang.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building ASM object $out
 
 
@@ -27,7 +27,7 @@ rule ASM_COMPILER__PowerControl_3OutVer_CMAKE_unscanned_Debug
 rule C_COMPILER__PowerControl_3OutVer_CMAKE_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}C:\Users\Cindy\AppData\Local\stm32cube\bundles\st-arm-clang\21.1.1+st.6\bin\starm-clang.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\Users\jx304\AppData\Local\stm32cube\bundles\st-arm-clang\21.1.1+st.6\bin\starm-clang.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -35,7 +35,7 @@ rule C_COMPILER__PowerControl_3OutVer_CMAKE_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__PowerControl_3OutVer_CMAKE_Debug
-  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\Users\Cindy\AppData\Local\stm32cube\bundles\st-arm-clang\21.1.1+st.6\bin\starm-clang.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\jx304\AppData\Local\stm32cube\bundles\st-arm-clang\21.1.1+st.6\bin\starm-clang.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -54,7 +54,7 @@ rule CUSTOM_COMMAND
 rule C_COMPILER__STM32_Drivers_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}C:\Users\Cindy\AppData\Local\stm32cube\bundles\st-arm-clang\21.1.1+st.6\bin\starm-clang.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\Users\jx304\AppData\Local\stm32cube\bundles\st-arm-clang\21.1.1+st.6\bin\starm-clang.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -62,7 +62,7 @@ rule C_COMPILER__STM32_Drivers_unscanned_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\Cindy\AppData\Local\stm32cube\bundles\cmake\4.0.1+st.3\bin\cmake.exe --regenerate-during-build -SE:\HXC26\PowerControl_3OutVer_CMAKE -BE:\HXC26\PowerControl_3OutVer_CMAKE\build\Debug
+  command = C:\Users\jx304\AppData\Local\stm32cube\bundles\cmake\4.0.1+st.3\bin\cmake.exe --regenerate-during-build -SD:\Code\stm32\PowerControl_Cmake3OutVer -BD:\Code\stm32\PowerControl_Cmake3OutVer\build\Debug
   description = Re-running CMake...
   generator = 1
 
@@ -71,7 +71,7 @@ rule RERUN_CMAKE
 # Rule for cleaning additional files.
 
 rule CLEAN_ADDITIONAL
-  command = C:\Users\Cindy\AppData\Local\stm32cube\bundles\cmake\4.0.1+st.3\bin\cmake.exe -DCONFIG=$CONFIG -P CMakeFiles\clean_additional.cmake
+  command = C:\Users\jx304\AppData\Local\stm32cube\bundles\cmake\4.0.1+st.3\bin\cmake.exe -DCONFIG=$CONFIG -P CMakeFiles\clean_additional.cmake
   description = Cleaning additional files...
 
 
@@ -79,7 +79,7 @@ rule CLEAN_ADDITIONAL
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = D:\STM32CubeCLT_1.19.0\Ninja\bin\ninja.exe $FILE_ARG -t clean $TARGETS
+  command = C:\Users\jx304\AppData\Local\stm32cube\bundles\ninja\1.12.1+st.9\bin\ninja.exe $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -87,6 +87,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = D:\STM32CubeCLT_1.19.0\Ninja\bin\ninja.exe -t targets
+  command = C:\Users\jx304\AppData\Local\stm32cube\bundles\ninja\1.12.1+st.9\bin\ninja.exe -t targets
   description = All primary targets available:
 
